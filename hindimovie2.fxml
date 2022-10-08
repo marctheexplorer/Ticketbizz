@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="338.0" prefWidth="552.0" style="-fx-background-color: #FDA172;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.startproject.HelloController">
+   <ImageView fitHeight="338.0" fitWidth="573.0" layoutX="45.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@kabir_background.jpeg" />
+      </image>
+   </ImageView>
+   <AnchorPane prefHeight="338.0" prefWidth="46.0" style="-fx-background-color: #dd571c;" />
+   <ImageView fitHeight="214.0" fitWidth="171.0" layoutX="71.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@Kabir_Singh.jpg" />
+      </image>
+   </ImageView>
+   <Button layoutX="71.0" layoutY="257.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="146.0" style="-fx-background-color: red;" text="Proceed To Payment" />
+   <ImageView fitHeight="178.0" fitWidth="229.0" layoutX="231.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@review_movie.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="139.0" fitWidth="262.0" layoutX="231.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@endgame_synopsis.png" />
+      </image>
+   </ImageView>
+   <Button layoutX="477.0" layoutY="40.0" mnemonicParsing="false" onAction="#switchToHindipage" prefHeight="23.0" prefWidth="64.0" style="-fx-background-color: white;" text="Back" />
+</AnchorPane>
